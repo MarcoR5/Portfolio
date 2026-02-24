@@ -20,7 +20,7 @@ export default function Contact(){
         {/* left */}
         <div className='w-[50%] h-full bg-main rounded-l-lg flex justify-center items-center'>
              <Image 
-                  src="/graphic4.svg"
+                  src="./graphic4.svg"
                   width={400}
                   height={48}
                   
@@ -35,14 +35,14 @@ export default function Contact(){
             {/* links group*/}
             <div className='flex mt-10'>
                  <Image 
-                  src="/linkedin.svg"
+                  src="./linkedin.svg"
                   width={48}
                   height={48}
                   
                   alt="Picture of the author"
                 />
                  <Image 
-                  src="/github.svg"
+                  src="./github.svg"
                   width={48}
                   height={48}
                   
@@ -58,14 +58,14 @@ export default function Contact(){
         <h2>Let's Work Together</h2>
         <div className='flex flex-row space-x-2'>
          <Image 
-          src="/linkedinGray.svg"
+          src="./linkedinGray.svg"
           width={48}
           height={48}
           
           alt="Picture of the author"
         />
         <Image 
-          src="/githubGray.svg"
+          src="./githubGray.svg"
           width={48}
           height={48}
           

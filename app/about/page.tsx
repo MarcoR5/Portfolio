@@ -19,7 +19,7 @@ export default function About(){
                 {/* left */}
                 <div>
                     <Image 
-                        src="/graphic5.svg"
+                        src="./graphic5.svg"
                         width={400}
                         height={48} 
                         alt="Picture of the author"
@@ -35,7 +35,7 @@ export default function About(){
                     <div className='flex p-10 space-x-10'>
                         <div className='w-55 h-15 rounded-full bg-black flex items-center justify-center space-x-5'>
                             <Image 
-                        src="/checkmark.svg"
+                        src="./checkmark.svg"
                         width={24}
                         height={24} 
                         alt="Picture of the author"
@@ -45,7 +45,7 @@ export default function About(){
                         
                         <div className='w-55 h-15 rounded-full bg-black flex items-center justify-center space-x-5'>
                             <Image 
-                        src="/checkmark.svg"
+                        src="./checkmark.svg"
                         width={24}
                         height={24} 
                         alt="Picture of the author"
@@ -57,7 +57,7 @@ export default function About(){
                     <div className='flex p-10  space-x-10'>
                         <div className='w-55 h-15 rounded-full bg-black flex items-center justify-center space-x-5'>
                             <Image 
-                        src="/checkmark.svg"
+                        src="./checkmark.svg"
                         width={24}
                         height={24} 
                         alt="Picture of the author"
@@ -66,7 +66,7 @@ export default function About(){
                         </div>
                         <div className='w-55 h-15 rounded-full bg-black flex items-center justify-center space-x-5'>
                             <Image 
-                        src="/checkmark.svg"
+                        src="./checkmark.svg"
                         width={24}
                         height={24} 
                         alt="Picture of the author"
@@ -83,14 +83,14 @@ export default function About(){
                     <h2>Let's Work Together</h2>
                     <div className='flex flex-row space-x-2'>
                      <Image 
-                      src="/linkedinGray.svg"
+                      src="./linkedinGray.svg"
                       width={48}
                       height={48}
                       
                       alt="Picture of the author"
                     />
                     <Image 
-                      src="/githubGray.svg"
+                      src="./githubGray.svg"
                       width={48}
                       height={48}
                       

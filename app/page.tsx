@@ -29,7 +29,7 @@ export default function Home() {
       <h4 className='font-bold'>I'm front-end developer and graphic designer, based in South Africa. <br /> I am experienced in various front-end languages such as Javascript, <br />
       Typescript and front-end libraries like Nextjs.</h4>
         <Image className='mt-5'
-      src="/Graphic3.svg"
+      src="./Graphic3.svg"
       width={300}
       height={300}
       
@@ -43,14 +43,14 @@ export default function Home() {
     <h2>Let's Work Together</h2>
     <div className='flex flex-row space-x-2'>
      <Image 
-      src="/linkedinGray.svg"
+      src="./linkedinGray.svg"
       width={48}
       height={48}
       
       alt="Picture of the author"
     />
     <Image 
-      src="/githubGray.svg"
+      src="./githubGray.svg"
       width={48}
       height={48}
       
