@@ -19,7 +19,7 @@ export default function Home() {
    
    <div className='w-full h-full p-5 flex mt-25 mb-10  justify-center'>
      <Image className='mr-15'
-      src="/Graphic1.svg"
+      src="./Graphic1.svg"
       width={500}
       height={500}
       alt="Picture of the author"
