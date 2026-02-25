@@ -8,7 +8,7 @@ export default function Home() {
    <div className="h-15 w-full flex space-x-5 justify-between pr-15 pl-15 pt-5 items-center">
     <h1 className="text-5xl font-bold">Marco Roodt</h1>
     <ul className="flex space-x-5 ">
-      <Link href="/blog">Projects</Link>
+      <Link href="/projects">Projects</Link>
       <Link href="/about">About</Link>
       <Link href="/contact">Contact</Link>
       
