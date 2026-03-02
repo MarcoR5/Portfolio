@@ -5,8 +5,8 @@ export default function Home() {
     <>
       <div className="h-screen w-screen flex flex-col overflow-hidden">
         {/* Navbar */}
-        <div className="h-15 w-full flex space-x-5 justify-between pr-15 pl-15 pt-5 items-center">
-          <h1 className="text-5xl font-bold">Marco Roodt</h1>
+        <div className="h-15 w-full flex space-x-5 justify-between pr-15 pl-15 pt-5 items-center flex-col md:flex-row ">
+          <h1 className="text-5xl font-bold text-center ">Marco Roodt</h1>
           <ul className="flex space-x-5 ">
             <Link href="/">Home</Link>
             <Link href="/projects">Projects</Link>
@@ -17,9 +17,9 @@ export default function Home() {
 
         {/* hero image with text */}
 
-        <div className="w-full h-full p-5 flex mt-25 mb-10  justify-center">
+        <div className="w-full h-full p-5 flex mt-25 mb-10  justify-center items-center text-center flex-col md:flex-row  md:text-left">
           <Image
-            className="mr-15"
+            className="md:mr-15"
             src="./Graphic1.svg"
             width={500}
             height={500}
