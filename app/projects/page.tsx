@@ -8,6 +8,7 @@ export default function Projects() {
       <div className="h-15 w-full flex space-x-5 justify-between pr-15 pl-15 pt-5 items-center">
         <h1 className="text-5xl font-bold">Marco Roodt</h1>
         <ul className="flex space-x-5 ">
+          <Link href="/">Home</Link>
           <Link href="/projects">Projects</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
@@ -166,7 +167,7 @@ export default function Projects() {
           />
         </div>
         {/* Footer */}
-        <hr />
+        <hr className="color-black w-full" />
         <div className="pl-15 text-3xl font-bold h-50 w-full flex items-center justify-between pr-15">
           <h2>Let's Work Together</h2>
           <div className="flex flex-row space-x-2">

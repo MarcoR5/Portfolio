@@ -8,6 +8,7 @@ export default function Home() {
         <div className="h-15 w-full flex space-x-5 justify-between pr-15 pl-15 pt-5 items-center">
           <h1 className="text-5xl font-bold">Marco Roodt</h1>
           <ul className="flex space-x-5 ">
+            <Link href="/">Home</Link>
             <Link href="/projects">Projects</Link>
             <Link href="/about">About</Link>
             <Link href="/contact">Contact</Link>
@@ -27,12 +28,12 @@ export default function Home() {
           <div className="flex flex-col justify-center space-y-3">
             <h2 className="text-4xl font-bold">Hi, I'm Marco.</h2>
             <br />
-            <h4 className="font-bold">
+            <p className="font-bold">
               I'm front-end developer and graphic designer, based in South
               Africa. <br /> I am experienced in various front-end languages
               such as Javascript, <br />
               Typescript and front-end libraries like Nextjs.
-            </h4>
+            </p>
             <Image
               className="mt-5"
               src="./Graphic3.svg"

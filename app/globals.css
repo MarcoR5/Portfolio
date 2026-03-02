@@ -8,8 +8,12 @@
   /* my custom colors start */
   --color-main: var(--main);
   /* my custom colors end */
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  /* my custom fonts start */
+
+  /* my custom fonts end */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -55,9 +59,15 @@ body {
   /* color: var(--foreground);#FFCE31 */
 }
 
+h1,
+h2,
+h3 {
+  font-family: var(--font-londrina);
+}
+
 :root {
   /* custom colors start */
-  --main :oklch(0.8704 0.1664 89.82);
+  --main: oklch(0.8704 0.1664 89.82);
   /* custom colors end */
   --radius: 0.625rem;
   --background: oklch(1 0 0);
