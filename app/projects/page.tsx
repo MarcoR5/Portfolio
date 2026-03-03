@@ -29,7 +29,7 @@ export default function Projects() {
           />
           {/* right */}
           <div className="mr-15 flex flex-col justify-between">
-            <h2 className="text-2xl font-bold">coffeeroasters</h2>
+            <h3 className="text-2xl font-bold">coffeeroasters</h3>
             <p className="w-150">
               I built the Coffeeroasters passion project by designing and coding
               a fully responsive, multi-page coffee subscription website. I
@@ -59,7 +59,7 @@ export default function Projects() {
         <div className="flex mt-30 mb-30">
           {/* left */}
           <div className="ml-15 flex flex-col justify-between">
-            <h2 className="text-2xl font-bold">MindMELT</h2>
+            <h3 className="text-2xl font-bold">MindMELT</h3>
             <p className="w-150">
               I built the Country Quiz project by designing and coding an
               interactive quiz website that challenges users on their knowledge
@@ -104,7 +104,7 @@ export default function Projects() {
           />
           {/* right */}
           <div className="mr-15 flex flex-col justify-between">
-            <h2 className="text-2xl font-bold">Qrates</h2>
+            <h3 className="text-2xl font-bold">Qrates</h3>
             <p className="w-150">
               I built the Qrates project by designing and coding a fully
               responsive vinyl music platform website aimed at connecting
@@ -133,7 +133,7 @@ export default function Projects() {
         <div className="flex  mb-30">
           {/* left */}
           <div className="ml-15 flex flex-col justify-between">
-            <h2 className="text-2xl font-bold">HTML Quiz</h2>
+            <h3 className="text-2xl font-bold">HTML Quiz</h3>
             <p className="w-150">
               I built the HTML Quiz project by designing and coding an
               interactive quiz website that tests users on essential HTML
