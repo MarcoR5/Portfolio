@@ -1,19 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import Header from "@/components/ui/header";
+import Footer from "@/components/ui/footer";
 export default function Projects() {
   return (
     <div className=" ">
       {/* Navbar */}
-      <div className="h-15 w-full flex space-x-5 justify-between pr-15 pl-15 pt-5 items-center">
-        <h1 className="text-5xl font-bold">Marco Roodt</h1>
-        <ul className="flex space-x-5 ">
-          <Link href="/">Home</Link>
-          <Link href="/projects">Projects</Link>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
-        </ul>
-      </div>
+      <Header />
+
       <h1 className="text-center p-15 text-3xl font-bold">MY PROJECTS</h1>
       {/* big wrapper for all the panels */}
       <div className="w-full h-full flex flex-col items-center">
@@ -166,26 +161,9 @@ export default function Projects() {
             alt="Picture of the author"
           />
         </div>
-        {/* Footer */}
-        <hr className="color-black w-full" />
-        <div className="pl-15 text-3xl font-bold h-50 w-full flex items-center justify-between pr-15">
-          <h2>Let's Work Together</h2>
-          <div className="flex flex-row space-x-2">
-            <Image
-              src="./linkedinGray.svg"
-              width={48}
-              height={48}
-              alt="Picture of the author"
-            />
-            <Image
-              src="./githubGray.svg"
-              width={48}
-              height={48}
-              alt="Picture of the author"
-            />
-          </div>
-        </div>
       </div>
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
