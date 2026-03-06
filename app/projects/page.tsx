@@ -80,7 +80,7 @@ export default function Projects() {
           {/* right */}
           <Image
             className="ml-15 mr-15"
-            src="/countryQuiz.png"
+            src="/Portfolio//countryQuiz.png"
             width={744}
             height={336}
             alt="Picture of the author"
@@ -92,7 +92,7 @@ export default function Projects() {
           {/* left */}
           <Image
             className="ml-15 mr-15"
-            src="/vinylWEB.png"
+            src="/Portfolio//vinylWEB.png"
             width={744}
             height={336}
             alt="Picture of the author"
@@ -155,7 +155,7 @@ export default function Projects() {
           {/* right */}
           <Image
             className="ml-15 mr-15"
-            src="/HTMLquiz.png"
+            src="/Portfolio//HTMLquiz.png"
             width={744}
             height={336}
             alt="Picture of the author"
