@@ -17,7 +17,7 @@ export default function Projects() {
           {/* left */}
           <Image
             className="ml-15 mr-15"
-            src="/coffeeWeb1.png"
+            src="public/coffeeWeb1.png"
             width={744}
             height={336}
             alt="Picture of the author"
