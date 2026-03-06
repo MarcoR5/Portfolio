@@ -57,7 +57,7 @@ export default function Projects() {
           {/* left */}
           <div className="ml-15 flex flex-col justify-between sm:px-6 md:px-8 lg:px-12">
             <h3 className="text-2xl font-bold">MindMELT</h3>
-            <p className="w-150">
+            <p className="">
               I built the Country Quiz project by designing and coding an
               interactive quiz website that challenges users on their knowledge
               of world countries and flags. The project allowed me to combine
@@ -65,7 +65,7 @@ export default function Projects() {
               educational experience, encouraging users to learn while having
               fun testing their geography knowledge.{" "}
             </p>
-            <p className="w-150">
+            <p className="">
               I carefully structured the layout with semantic HTML, implemented
               dynamic quiz logic using JavaScript, and styled the site with
               clean, modern CSS. I focused on responsiveness and user
@@ -102,14 +102,14 @@ export default function Projects() {
           {/* right */}
           <div className="mr-15 flex flex-col justify-between sm:px-6 md:px-8 lg:px-12">
             <h3 className="text-2xl font-bold">Qrates</h3>
-            <p className="w-150">
+            <p className="">
               I built the Qrates project by designing and coding a fully
               responsive vinyl music platform website aimed at connecting
               artists and fans. The project allowed me to create a digital space
               that supports music discovery, artist promotion, and community
               engagement while reflecting a modern, professional brand identity.
             </p>
-            <p className="w-150">
+            <p className="">
               I structured key sections including crowdfunding, press & sell,
               services, retail network, and community features, carefully
               crafting a clear layout, strong typography, and intuitive
@@ -131,7 +131,7 @@ export default function Projects() {
           {/* left */}
           <div className="ml-15 flex flex-col justify-between sm:px-6 md:px-8 lg:px-12">
             <h3 className="text-2xl font-bold">HTML Quiz</h3>
-            <p className="w-150">
+            <p>
               I built the HTML Quiz project by designing and coding an
               interactive quiz website that tests users on essential HTML
               concepts, including tags, structure, and best practices. The
@@ -139,7 +139,7 @@ export default function Projects() {
               design, creating an engaging way for users to learn and reinforce
               their HTML knowledge.{" "}
             </p>
-            <p className="w-150">
+            <p>
               I implemented dynamic question logic, scoring, and instant
               feedback using JavaScript, while crafting a clean, responsive
               interface with CSS and semantic HTML. By focusing on usability,
