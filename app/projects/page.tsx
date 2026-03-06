@@ -25,9 +25,9 @@ export default function Projects() {
           />
 
           {/* right */}
-          <div className="mr-15 flex flex-col justify-between">
+          <div className="mr-15 flex flex-col justify-between sm:px-6 md:px-8 lg:px-12">
             <h3 className="text-2xl font-bold">coffeeroasters</h3>
-            <p className="w-150">
+            <p>
               I built the Coffeeroasters passion project by designing and coding
               a fully responsive, multi-page coffee subscription website. I
               focused on translating the brand’s premium identity into a
@@ -35,7 +35,7 @@ export default function Projects() {
               across devices while engaging coffee enthusiasts with intuitive
               navigation and interactive features.
             </p>
-            <p className="w-150">
+            <p>
               I structured the layout with clean, semantic HTML and styled it
               using modern CSS that emphasizes simplicity, elegance, and
               readability. By paying attention to typography, spacing, and

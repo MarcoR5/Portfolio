@@ -5,7 +5,7 @@ import Footer from "@/components/ui/footer";
 export default function Home() {
   return (
     <>
-      <div className="h-screen w-screen flex flex-col overflow-hidden">
+      <div className="h-screen w-screen flex flex-col ">
         {/* Navbar */}
         <Header />
 
