@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
+
 export default function Projects() {
   return (
     <div className=" ">
@@ -21,6 +22,12 @@ export default function Projects() {
             width={744}
             height={336}
             alt="Picture of the author"
+          />
+          <img
+            src="/coffeeWeb1.png"
+            width="744"
+            height="336"
+            alt="Coffee project"
           />
           {/* right */}
           <div className="mr-15 flex flex-col justify-between">
@@ -78,12 +85,18 @@ export default function Projects() {
           </div>
 
           {/* right */}
-          <Image
+          {/* <Image
             className="ml-15 mr-15"
             src="/Portfolio/countryQuiz.png"
             width={744}
             height={336}
             alt="Picture of the author"
+          /> */}
+          <img
+            src="/countryQuiz.png"
+            width="744"
+            height="336"
+            alt="Coffee project"
           />
         </div>
 
