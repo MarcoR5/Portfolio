@@ -55,7 +55,7 @@ export default function Projects() {
         {/* second panel wrapper*/}
         <div className="flex mt-30 mb-30">
           {/* left */}
-          <div className="ml-15 flex flex-col justify-between">
+          <div className="ml-15 flex flex-col justify-between sm:px-6 md:px-8 lg:px-12">
             <h3 className="text-2xl font-bold">MindMELT</h3>
             <p className="w-150">
               I built the Country Quiz project by designing and coding an
@@ -100,7 +100,7 @@ export default function Projects() {
             alt="Picture of the author"
           />
           {/* right */}
-          <div className="mr-15 flex flex-col justify-between">
+          <div className="mr-15 flex flex-col justify-between sm:px-6 md:px-8 lg:px-12">
             <h3 className="text-2xl font-bold">Qrates</h3>
             <p className="w-150">
               I built the Qrates project by designing and coding a fully
@@ -129,7 +129,7 @@ export default function Projects() {
         {/* fourth panel wrapper*/}
         <div className="flex  mb-30">
           {/* left */}
-          <div className="ml-15 flex flex-col justify-between">
+          <div className="ml-15 flex flex-col justify-between sm:px-6 md:px-8 lg:px-12">
             <h3 className="text-2xl font-bold">HTML Quiz</h3>
             <p className="w-150">
               I built the HTML Quiz project by designing and coding an
