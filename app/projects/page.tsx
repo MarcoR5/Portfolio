@@ -155,7 +155,7 @@ export default function Projects() {
           {/* right */}
           <Image
             className="ml-15 mr-15"
-            src="/HTMLquiz.png"
+            src="./HTMLquiz.png"
             width={744}
             height={336}
             alt="Picture of the author"
