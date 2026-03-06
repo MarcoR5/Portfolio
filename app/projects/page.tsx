@@ -17,16 +17,10 @@ export default function Projects() {
           {/* left */}
           <Image
             className="ml-15 mr-15"
-            src="/coffeeWeb1.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/coffeeWeb1.png`}
             width={744}
             height={336}
             alt="Picture of the author"
-          />
-          <img
-            src="/Portfolio/coffeeWeb1.png"
-            width={744}
-            height={336}
-            alt=""
           />
           {/* right */}
           <div className="mr-15 flex flex-col justify-between">
