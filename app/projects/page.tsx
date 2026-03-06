@@ -22,7 +22,12 @@ export default function Projects() {
             height={336}
             alt="Picture of the author"
           />
-          <img src="/coffeeWeb1" alt="" />
+          <img
+            src="/Portfolio/coffeeWeb1.png"
+            width={744}
+            height={336}
+            alt=""
+          />
           {/* right */}
           <div className="mr-15 flex flex-col justify-between">
             <h3 className="text-2xl font-bold">coffeeroasters</h3>
