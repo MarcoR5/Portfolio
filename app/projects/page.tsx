@@ -12,20 +12,20 @@ export default function Projects() {
 
       <h1 className="text-center p-15 text-3xl font-bold">MY PROJECTS</h1>
       {/* big wrapper for all the panels */}
-      <div className="w-full h-full flex flex-col items-center">
+      <div className="w-full h-full flex flex-col items-center ">
         {/* first panel wrapper*/}
-        <div className="flex ">
+        <div className="flex  sm:flex-col md:flex-col lg:flex-row">
           {/* left */}
           <Image
-            className="ml-15 mr-15"
+            className="order-1 ml-15 mr-15 pl-12 sm:w-auto md:w-auto lg:w-180 h-auto  sm:h-auto md:h-auto lg:h-80"
             src="./coffeeWeb1.png"
-            width={744}
-            height={336}
+            width={0}
+            height={0}
             alt="Picture of the author"
           />
 
           {/* right */}
-          <div className="mr-15 flex flex-col justify-between sm:px-6 md:px-8 lg:px-12">
+          <div className="order-2 ml-15 md:ml-15 lg:ml-0 mr-0 lg:mr-15 flex flex-col  lg:justify-between sm:px-6 md:px-8 lg:px-12">
             <h3 className="text-2xl font-bold">coffeeroasters</h3>
             <p>
               I built the Coffeeroasters passion project by designing and coding
@@ -44,7 +44,10 @@ export default function Projects() {
               explore subscription options and learn about different coffee
               blends.
             </p>
-            <Button className="bg-main w-30 font-bold" asChild>
+            <Button
+              className="bg-main w-30 font-bold mt-10 mb-10 lg:mt-0 lg:mb-0"
+              asChild
+            >
               <Link href="https://marcor5.github.io/coffee-website/">
                 Visit
               </Link>
@@ -53,9 +56,9 @@ export default function Projects() {
         </div>
 
         {/* second panel wrapper*/}
-        <div className="flex mt-30 mb-30">
+        <div className="flex mt-30 mb-30 flex-col lg:flex-row">
           {/* left */}
-          <div className="ml-15 flex flex-col justify-between sm:px-6 md:px-8 lg:px-12">
+          <div className="order-2 lg-order-1 ml-15 flex flex-col justify-between sm:px-6 md:px-8 lg:px-12">
             <h3 className="text-2xl font-bold">MindMELT</h3>
             <p className="">
               I built the Country Quiz project by designing and coding an
@@ -74,29 +77,32 @@ export default function Projects() {
               interactive experience that keeps users motivated to explore and
               improve their knowledge of countries around the world.
             </p>
-            <Button className="bg-main w-30 font-bold" asChild>
+            <Button
+              className="bg-main w-30 font-bold mt-10 mb-10 lg:mt-0 lg:mb-0"
+              asChild
+            >
               <Link href="https://marcor5.github.io/quiz-web-page/">Visit</Link>
             </Button>
           </div>
 
           {/* right */}
           <Image
-            className="ml-15 mr-15"
+            className="order-1 lg:order-2 ml-15 mr-15 pr-12 sm:w-auto md:w-auto lg:w-180 h-auto  sm:h-auto md:h-auto lg:h-80"
             src="./countryQuiz.png"
-            width={744}
-            height={336}
+            width={0}
+            height={0}
             alt="Picture of the author"
           />
         </div>
 
         {/* third panel wrapper*/}
-        <div className="flex mb-30">
+        <div className="flex mb-30 flex-col lg:flex-row flex-col lg:flex-row">
           {/* left */}
           <Image
-            className="ml-15 mr-15"
+            className="ml-15 mr-15 pl-12  sm:w-auto md:w-auto lg:w-180 h-auto  sm:h-auto md:h-auto lg:h-80"
             src="./vinylWEB.png"
-            width={744}
-            height={336}
+            width={0}
+            height={0}
             alt="Picture of the author"
           />
           {/* right */}
@@ -118,7 +124,10 @@ export default function Projects() {
               across devices, allowing both artists and fans to interact
               seamlessly with the platform.
             </p>
-            <Button className="bg-main w-30 font-bold" asChild>
+            <Button
+              className="bg-main w-30 font-bold mt-10 mb-10 lg:mt-0 lg:mb-0"
+              asChild
+            >
               <Link href="https://marcor5.github.io/Vinyl-Web-Page/">
                 Visit
               </Link>
@@ -127,9 +136,9 @@ export default function Projects() {
         </div>
 
         {/* fourth panel wrapper*/}
-        <div className="flex  mb-30">
+        <div className="flex  mb-30 flex-col lg:flex-row  ">
           {/* left */}
-          <div className="ml-15 flex flex-col justify-between sm:px-6 md:px-8 lg:px-12">
+          <div className="order-2 lg:order-1 ml-15 flex flex-col justify-between sm:px-6 md:px-8 lg:px-12">
             <h3 className="text-2xl font-bold">HTML Quiz</h3>
             <p>
               I built the HTML Quiz project by designing and coding an
@@ -147,7 +156,10 @@ export default function Projects() {
               educational experience that works seamlessly across devices and
               encourages repeated engagement.
             </p>
-            <Button className="bg-main w-30 font-bold" asChild>
+            <Button
+              className="bg-main w-30 font-bold mt-10 mb-10 lg:mt-0 lg:mb-0"
+              asChild
+            >
               <Link href="https://marcor5.github.io/Programming-Quiz-Website/">
                 Visit
               </Link>
@@ -156,10 +168,10 @@ export default function Projects() {
 
           {/* right */}
           <Image
-            className="ml-15 mr-15"
+            className="order-1 lg:order-2 ml-15 mr-15 pr-12  sm:w-auto md:w-auto lg:w-180 h-auto  sm:h-auto md:h-auto lg:h-80"
             src="./HTMLquiz.png"
-            width={744}
-            height={336}
+            width={0}
+            height={0}
             alt="Picture of the author"
           />
         </div>
