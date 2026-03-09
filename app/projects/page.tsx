@@ -82,7 +82,7 @@ export default function Projects() {
           {/* right */}
           <Image
             className="ml-15 mr-15"
-            src="/Portfolio/countryQuiz.png"
+            src="./countryQuiz.png"
             width={744}
             height={336}
             alt="Picture of the author"
@@ -94,7 +94,7 @@ export default function Projects() {
           {/* left */}
           <Image
             className="ml-15 mr-15"
-            src="/Portfolio/vinylWEB.png"
+            src="/vinylWEB.png"
             width={744}
             height={336}
             alt="Picture of the author"
