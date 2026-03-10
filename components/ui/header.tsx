@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div>
       {/* Navbar */}
-      <div className="h-15 w-full flex space-x-5 justify-between pr-15 pl-15 pt-5 items-center flex-col md:flex-row ">
+      <div className="h-35 mb-5  lg:h-15  w-full flex space-x-5 justify-between pr-15 pl-15 pt-5  items-center flex-col md:flex-row ">
         <Link href={"/"}>
           <h1 className="text-5xl font-bold text-center ">Marco Roodt</h1>
         </Link>

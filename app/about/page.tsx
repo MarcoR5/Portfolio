@@ -2,17 +2,19 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
+
 export default function About() {
   return (
-    <div className="h-screen w-screen flex flex-col overflow-hidden">
+    <div className="min-h-screen flex flex-col">
       {/* Navbar */}
       <Header />
 
       {/* main hero image + text */}
-      <div className="w-full h-full flex justify-center items-center">
+      <div className="w-full flex flex-col   lg:flex-row justify-center items-center flex-grow">
         {/* left */}
         <div>
           <Image
+            className="w-[250px] lg:w-[400px] h-auto mb-5 lg:mb-0"
             src="./graphic5.svg"
             width={400}
             height={48}
@@ -20,10 +22,10 @@ export default function About() {
           />
         </div>
         {/* right */}
-        <div className="flex flex-col items-center w-[35%]">
+        <div className="flex  flex-col  pl-5 pr-5 lg:pl-0 lg:pr-0 items-center  lg:w-[35%] h-[60%]">
           <h2 className="font-bold text-3xl mb-10 ">ABOUT ME </h2>
           <br />
-          <p className="text-center">
+          <p className="text-center mb-5 lg:mb-0">
             Front-end developer and graphic designer specializing in JavaScript,
             TypeScript, and Next.js. I combine clean code with strong visual
             design using tools like Figma and Canva to create engaging,
@@ -31,7 +33,7 @@ export default function About() {
           </p>
 
           {/* 4x sections */}
-          <div className="flex p-10 space-x-10">
+          <div className="flex flex-col items-center lg:flex-row mb-5 lg:mb-0 p-0 lg:p-10 space-y-5 lg:space-y-0 lg:space-x-10">
             <div className="w-55 h-15 rounded-full bg-black flex items-center justify-center space-x-5">
               <Image
                 src="./checkmark.svg"
@@ -52,7 +54,7 @@ export default function About() {
               <p className="text-white">Tasteful Designs</p>
             </div>
           </div>
-          <div className="flex p-10  space-x-10">
+          <div className="flex flex-col items-center lg:flex-row mb-5 lg:mb-0 p-0 lg:p-10 space-y-5 lg:space-y-0 lg:space-x-10">
             <div className="w-55 h-15 rounded-full bg-black flex items-center justify-center space-x-5">
               <Image
                 src="./checkmark.svg"
